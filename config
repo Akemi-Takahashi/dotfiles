@@ -1,0 +1,68 @@
+[options]
+    resize_grip = false
+    scroll_on_output = false
+    scroll_on_keystroke = true
+    audible_bell = true
+    visible_bell = false
+    mouse_autohide = true
+    allow_bold = true
+    dynamic_title = false
+    urgent_on_bell = true
+    clickable_url = true
+    font = Fira Mono 13
+    scrollback_lines = 1000
+    search_wrap = true
+    icon_name = Termite
+    title = Termite
+    #geometry = 640x480
+
+    # "system", "on" or "off"
+    cursor_blink = system
+
+    # "block", "underline" or "ibeam"
+    cursor_shape = block
+
+    # $BROWSER is used by default
+    browser = firefox	
+
+    # word characters used for word selection
+    # (default if unset: all graphic non-punctuation/space characters)
+    #word_chars = -A-Za-z0-9,./?%&#:_=+@~
+
+[colors]
+    foreground = #b3b8c3
+    #foreground_bold = #ffffff
+    #foreground_dim = #888888
+    background = #20242d
+    cursor = #b3b8c3
+    # if unset, will reverse foreground and background
+    #highlight = #85befd
+
+
+    color0= #000000
+    color1= #b04b57
+    color2= #87b379
+    color3= #e5c179
+    color4= #7d8fa4
+    color5= #a47996
+    color6= #85a7a5
+    color7= #b3b8c3
+    color8= #000000
+    color9= #b04b57
+    color10= #87b379
+    color11= #e5c179
+    color12= #7d8fa4
+    color13= #a47996
+    color14= #85a7a5
+    color15= #ffffff
+
+[hints]
+    foreground = #b3b8c3
+
+    #font = Monospace 12
+    #foreground = #dcdccc
+    #background = #3f3f3f
+    #padding = 2
+    #border = #3f3f3f
+    #border_width = 0.5
+    #roundness = 2.0
