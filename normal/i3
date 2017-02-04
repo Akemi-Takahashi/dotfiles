@@ -159,6 +159,7 @@ assign [class="Pcmanfm"] $workspace3
 # floating window
 for_window [class="Lxappearance"] floating enable
 for_window [class="Firefox" instance="Places"] floating enable
+for_window [class="feh"] floating enable
 
 # gaps
 
