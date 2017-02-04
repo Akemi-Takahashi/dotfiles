@@ -4,22 +4,22 @@ If you decide to copy paste the config down install the following before doing s
 firefox-nightly 
 
 #Notification daemon I use
-dunst
+dunst (ignore this if your using the normal folder configs)
 
 #Music player for mpd
-ncmpcpp 
+ncmpcpp (ignore to if your using normal configs)
 
 #Software launcher
 rofi
 
 #Visualizer
-cli-visualizer
+cli-visualizer (and this)
 
 #Status command
 i3blocks
 
 #MPD alternative
-mopidy 
+mopidy (this too)
 
 #Screenshot tool
 maim + slop
@@ -28,7 +28,7 @@ maim + slop
 termite 
 
 #CLI file manager
-ranger
+ranger (finally ignore this to for normal config)
 
 #Compositing manager
 compton 
