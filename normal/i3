@@ -1,10 +1,10 @@
-# Defaults to windows key
+# defaults to windows key
 set $mod Mod4
 
-# Font for window titles and bar
+# font for window titles and bar
 font pango:Fira Mono 11
 
-# Use Mouse+$mod to drag floating windows to their wanted position
+# use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # start a terminal
@@ -50,10 +50,6 @@ bindsym $mod+space focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
-
-# focus the child container
-#bindsym $mod+d focus child
-
 
 set $workspace1 "1 "
 set $workspace2 "2 "
@@ -127,7 +123,7 @@ client.unfocused          #2f343f             $inactive-bg-color   $inactive-tex
 client.focused_inactive   #2f343f             $inactive-bg-color   $inactive-text-color  #2f343f 
 client.urgent             #2f343f             #2f343f              $text-color           $urgent-bg-color
 
-# Start i3bar to display a workspace bar
+# start i3bar to display a workspace bar
 bar {
         status_command i3blocks -c ~/.config/i3/i3blocks.conf
         position top
