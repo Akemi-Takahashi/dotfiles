@@ -1,6 +1,6 @@
 If you decide to copy paste the config down install the following before doing so 
 
-1.firefox-nightly
+1.firefox-nightly 
 2.dunst
 3.ncmpcpp
 4.rofi
@@ -9,4 +9,7 @@ If you decide to copy paste the config down install the following before doing s
 7.mopidy
 8.maim + slop
 9.termite
-10.
+10.ranger
+11.compton
+12.feh
+13.i3-gaps 
