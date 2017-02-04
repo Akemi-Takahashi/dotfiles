@@ -1,25 +1,26 @@
-If you decide to copy paste the config down install the following before doing so 
+If you decide to copy paste the config down install the following before doing so
+(For normal user ignore dunst, cli-visualizer, mopidy, ranger and ncmpcpp)
 
 #My browser in the config
 firefox-nightly 
 
 #Notification daemon I use
-dunst (ignore this if your using the normal folder configs)
+dunst
 
 #Music player for mpd
-ncmpcpp (ignore to if your using normal configs)
+ncmpcpp
 
 #Software launcher
 rofi
 
 #Visualizer
-cli-visualizer (and this)
+cli-visualizer
 
 #Status command
 i3blocks
 
 #MPD alternative
-mopidy (this too)
+mopidy
 
 #Screenshot tool
 maim + slop
@@ -28,7 +29,7 @@ maim + slop
 termite 
 
 #CLI file manager
-ranger (finally ignore this to for normal config)
+ranger
 
 #Compositing manager
 compton 
