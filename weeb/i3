@@ -214,9 +214,9 @@ exec_always --no-startup-id dunst
  
 #Custom workspace opener
 assign [class="Firefox"] $workspace1
-assign [class="discord"] $workspace4
-assign [class="Bleachbit"] $workspace5
-assign [class="Pcmanfm"] $workspace6
+#assign [class="discord"] $workspace4
+#assign [class="Bleachbit"] $workspace5
+#assign [class="Pcmanfm"] $workspace6
  
  
 #Gaps
