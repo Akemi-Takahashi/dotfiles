@@ -1,27 +1,20 @@
 If you decide to copy paste the config down install the following before doing so 
-
+#My browser in the config
 firefox-nightly 
 
-dunst 
+#A notification daemon I use
+dunst
 
+#A music player for mpd
 ncmpcpp 
 
 rofi
-
 cli-visualizer 
-
 i3blocks 
-
 mopidy 
-
 maim + slop 
-
 termite 
-
 ranger 
-
 compton 
-
 feh
-
 i3-gaps
