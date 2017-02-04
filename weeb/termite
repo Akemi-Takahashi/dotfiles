@@ -11,9 +11,6 @@
     clickable_url = true
     font = Roboto Mono for Powerline 13
     scrollback_lines = 1000
-    search_wrap = true
-    #icon_name = terminal
-    #geometry = 640x480
  
     # "system", "on" or "off"
     cursor_blink = system
@@ -24,20 +21,10 @@
     # $BROWSER is used by default
     browser = firefox-nightly  
  
-    # word characters used for word selection
-    # (default if unset: all graphic non-punctuation/space characters)
-    #word_chars = -A-Za-z0-9,./?%&#:_=+@~
- 
 [colors]
     foreground = #b7a1ff
-    #foreground_bold = #ffffff
-    #foreground_dim = #888888
     background = #1f1d27
-    cursor = #ff9839
- 
-    # if unset, will reverse foreground and background
-    highlight = #1f1d27
- 
+    cursor = #ff9830
  
     color0= #1f1d27
     color1= #d9393e
@@ -58,11 +45,3 @@
  
 [hints]
     foreground = #b7a1ff
- 
-    #font = Monospace 12
-    #foreground = #dcdccc
-    #background = #3f3f3f
-    #padding = 2
-    #border = #3f3f3f
-    #border_width = 0.5
-    #roundness = 2.0
