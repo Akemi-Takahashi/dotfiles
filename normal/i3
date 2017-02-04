@@ -1,8 +1,7 @@
-#Defaults to windows key
+# Defaults to windows key
 set $mod Mod4
 
-# Font for window titles. Will also be used by the bar unless a different font
-# is used in the bar {} block below.
+# Font for window titles and bar
 font pango:Fira Mono 11
 
 # Use Mouse+$mod to drag floating windows to their wanted position
