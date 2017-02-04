@@ -1,15 +1,15 @@
 If you decide to copy paste the config down install the following before doing so 
 
-1.firefox-nightly = the browser used in the config
-2.dunst = the notifcation daemon I use 
-3.ncmpcpp = Music player for mpd
-4.rofi = Software launcher
-5.cli-visualizer = The name says it all
-6.i3blocks = Status command 
-7.mopidy = Mpd that works better for me
-8.maim + slop = Fork of scrot that fix alot of issue scrot has
-9.termite = URxvt that works
-10.ranger = Cli file manager (not to be confused with midnight-commander)
-11.compton = Compositing manager
-12.feh = Wallpaper setter that is also a image viewer
-13.i3-gaps = No gaps No go
+firefox-nightly = the browser used in the config
+dunst = the notifcation daemon I use 
+ncmpcpp = Music player for mpd
+rofi = Software launcher
+cli-visualizer = The name says it all
+i3blocks = Status command 
+mopidy = Mpd that works better for me
+maim + slop = Fork of scrot that fix alot of issue scrot has
+termite = URxvt that works
+ranger = Cli file manager (not to be confused with midnight-commander)
+compton = Compositing manager
+feh = Wallpaper setter that is also a image viewer
+i3-gaps = No gaps No go
