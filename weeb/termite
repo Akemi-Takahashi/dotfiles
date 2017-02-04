@@ -19,7 +19,7 @@
     cursor_shape = block
  
     # $BROWSER is used by default
-    browser = firefox-nightly  
+    browser = firefox 
  
 [colors]
     foreground = #b7a1ff
