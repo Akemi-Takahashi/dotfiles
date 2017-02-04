@@ -1,6 +1,6 @@
 If you decide to copy paste the config down install the following before doing so 
 
-firefox-nightly = the browser used in the config
+[firefox-nightly](https://help.github.com/articles/adding-links-to-wikis/) = the browser used in the config
 dunst = the notifcation daemon I use 
 ncmpcpp = Music player for mpd
 rofi = Software launcher
