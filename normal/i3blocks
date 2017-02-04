@@ -6,5 +6,3 @@ markup=none
 command=date '+%b %d %H:%M'
 interval=1
 label=
-
-
