@@ -8,4 +8,5 @@ In here you will find all my dotfiles for my PC
 
 -Weeb folder for weeb user
 
-[google](google.com)
+The normal look:
+
