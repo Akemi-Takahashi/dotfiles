@@ -2,40 +2,53 @@ If you decide to copy paste the config down install the following before doing s
 (For normal user ignore dunst, cli-visualizer, mopidy, ranger and ncmpcpp)
 
 My browser in the config
+
 [firefox](https://www.mozilla.org/en-US/firefox/new/)
 
 Notification daemon I use
+
 [dunst](https://github.com/dunst-project/dunst)
 
-#Music player for mpd
-ncmpcpp
+Music player for mpd
 
-#Software launcher
-rofi
+[ncmpcpp](https://github.com/arybczak/ncmpcpp)
 
-#Visualizer
-cli-visualizer
+Software launcher
 
-#Status command
-i3blocks
+[rofi](https://davedavenport.github.io/rofi/)
 
-#MPD alternative
-mopidy
+Visualizer
 
-#Screenshot tool
-maim + slop
+[cli-visualizer](https://github.com/dpayne/cli-visualizer)
 
-#Terminal emulator
-termite 
+Status command
 
-#CLI file manager
-ranger
+[i3blocks](https://github.com/vivien/i3blocks)
 
-#Compositing manager
-compton 
+MPD alternative
 
-#Wallpaper setter that is also an awesome image viewer
-feh
+[mopidy](https://www.mopidy.com/)
 
-#No gaps No go
-i3-gaps
+Screenshot tool
+
+[maim](https://github.com/naelstrof/maim)
+
+Terminal emulator
+
+[termite](https://github.com/thestinger/termite/)
+
+CLI file manager
+
+[ranger](https://github.com/ranger/ranger)
+
+Compositing manager
+
+[compton](https://github.com/chjj/compton)
+
+Wallpaper setter that is also an awesome image viewer
+
+[feh](https://github.com/derf/feh)
+
+No gaps No go
+
+[i3-gaps](https://github.com/Airblader/i3)
