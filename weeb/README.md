@@ -1,10 +1,10 @@
 If you decide to copy paste the config down install the following before doing so
 (For normal user ignore dunst, cli-visualizer, mopidy, ranger and ncmpcpp)
 
-# My browser in the config
+My browser in the config
 [firefox](https://www.mozilla.org/en-US/firefox/new/)
 
-# Notification daemon I use
+Notification daemon I use
 [dunst](https://github.com/dunst-project/dunst)
 
 #Music player for mpd
