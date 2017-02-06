@@ -9,5 +9,5 @@ In here you will find all my dotfiles for my PC
 -Weeb folder for weeb user
 
 The normal look:
-![alt-tag](http://imgur.com/dzmpIWl)
+![img](https://i.imgur.com/dzmpIWl.png)
 
