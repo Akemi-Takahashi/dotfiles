@@ -3,6 +3,7 @@ If you decide to copy paste the config down install the following before doing s
 (For normal user ignore dunst, cli-visualizer, mopidy, ranger and ncmpcpp)
 
 My browser in the config
+
 [firefox](https://www.mozilla.org/en-US/firefox/new/)
 
 Notification daemon I use
