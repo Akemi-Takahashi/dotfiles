@@ -10,7 +10,7 @@ In here you will find all my dotfiles for my PC
 
 The weechat look:
 
-![img](http://imgur.com/g1KAzWs)
+![img](https://i.imgur.com/nW8vrX5.png)
 
 The normal look:
 
