@@ -8,6 +8,8 @@ In here you will find all my dotfiles for my PC
 
 -weeb folder for weeb user
 
+-zsh folder for zsh user
+
 The weechat look:
 
 ![img](https://i.imgur.com/nW8vrX5.png)
@@ -19,3 +21,7 @@ The normal look:
 The weeb look:
 
 ![img](https://i.imgur.com/QmAJjbR.png)
+
+The zsh look:
+
+![img](http://imgur.com/m5bScI6)
