@@ -24,4 +24,4 @@ The weeb look:
 
 The zsh look:
 
-![img](http://imgur.com/m5bScI6)
+![img](https://i.imgur.com/m5bScI6.png)
