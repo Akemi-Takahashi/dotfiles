@@ -2,7 +2,7 @@
 
 In here you will find all my dotfiles for my PC
 
--weechat folder for weeechat user
+weechat folder for weeechat user
 
 -normal folder for normal user
 
