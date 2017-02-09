@@ -1,6 +1,9 @@
 # defaults to windows key
 set $mod Mod4
 
+# set exec to no-startup-id
+set $exec exec --no-startup-id
+
 # font for window titles and bar
 font pango:Fira Mono 11
 
@@ -14,7 +17,7 @@ bindsym $mod+Return exec --no-startup-id termite
 bindsym $mod+Shift+q kill
 
 # start rofi (a program launcher)
-bindsym $mod+r exec --no-startup-id rofi -show run -lines 3 -eh 2 -width 100 -padding 400 -bw 0 -font "Fira Sans 20" -hide-scrollbar
+bindsym $mod+r $exec rofi -show run -lines 3 -eh 2 -width 100 -padding 400 -bw 0 -font "Fira Sans 20" -hide-scrollbar
 
 # change focus
 bindsym $mod+Left focus left
@@ -53,8 +56,8 @@ bindsym $mod+a focus parent
 
 set $workspace1 "1 "
 set $workspace2 "2 "
-set $workspace3 "3 "
-set $workspace4 "4 "
+set $workspace3 "3 "
+set $workspace4 "4 "
 set $workspace5 "5 "
 set $workspace6 "6 "
 set $workspace7 "7 "
@@ -91,7 +94,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec --no-startup-id "i3-nagbar -t warning -m 'Time to get to the real world?.' -b 'I dont wanna' 'i3-msg exit'"
+bindsym $mod+Shift+e $exec "i3-nagbar -t warning -m 'Time to get to the real world?.' -b 'I dont wanna' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -139,30 +142,31 @@ bar {
 }
 
 # border
-new_window pixel2
-new_float pixel2
-
+new_window pixel 2
+new_float pixel 2
 hide_edge_borders both
 
-
 # screenshot
-bindsym Print exec --no-startup-id  maim
+bindsym Print $exec maim '/home/akemi/tmp.png'
+bindsym --release $mod+Print $exec maim -s -b 1 '/home/akemi/tmp.png'
 
 # autostart
-exec_always --no-startup-id feh --bg-fill ~/Pictures/Clips.jpeg
-exec_always --no-startup-id compton -b -r 0 -o 0.0 -C -z -f -G
+$exec feh --bg-fill ~/Pictures/Clips.jpeg
+$exec compton -b -r 0 -o 0.0 -C -z -f -G
 
 # workspace opener
 assign [class="Firefox"] $workspace1
-assign [class="Pcmanfm"] $workspace3
+assign [class="Pcmanfm"] $workspace4
+assign [class="discord"] $workspace3
 
 # floating window
 for_window [class="Firefox" instance="Places"] floating enable
 for_window [class="feh"] floating enable
+for_window [class="Lxappearance"] floating enable
+for_window [class="Pavucontrol"] floating enable
 
 # gaps
-
 gaps inner 10 
-
 smart_borders on
 smart_gaps on
+
