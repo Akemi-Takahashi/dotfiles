@@ -40,11 +40,6 @@ bindsym $mod+v split v
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
 
-# change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
-
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
@@ -56,8 +51,8 @@ bindsym $mod+a focus parent
 
 set $workspace1 "1 "
 set $workspace2 "2 "
-set $workspace3 "3 "
-set $workspace4 "4 "
+set $workspace3 "3 "
+set $workspace4 "4 "
 set $workspace5 "5 "
 set $workspace6 "6 "
 set $workspace7 "7 "
@@ -91,8 +86,10 @@ bindsym $mod+Shift+0 move container to workspace $workspace10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
+
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
+
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e $exec "i3-nagbar -t warning -m 'Time to get to the real world?.' -b 'I dont wanna' 'i3-msg exit'"
 
@@ -120,7 +117,7 @@ set $inactive-text-color #676E7D
 set $urgent-bg-color     #E53935
 
 # window colors
-# #                       border              background           text                 indicator
+#                         border              background           text                 indicator
 client.focused            #2f343f             $bg-color            $text-color           #2f343f
 client.unfocused          #2f343f             $inactive-bg-color   $inactive-text-color  #2f343f
 client.focused_inactive   #2f343f             $inactive-bg-color   $inactive-text-color  #2f343f 
@@ -151,18 +148,16 @@ bindsym Print $exec maim '/home/akemi/tmp.png'
 bindsym --release $mod+Print $exec maim -s -b 1 '/home/akemi/tmp.png'
 
 # autostart
-$exec feh --bg-fill ~/Pictures/Clips.jpeg
+$exec feh --bg-fill ~/Pictures/Clips.jpeg 
 $exec compton -b -r 0 -o 0.0 -C -z -f -G
 
 # workspace opener
 assign [class="Firefox"] $workspace1
-assign [class="Pcmanfm"] $workspace4
-assign [class="discord"] $workspace3
+assign [class="Pcmanfm"] $workspace3
 
 # floating window
 for_window [class="Firefox" instance="Places"] floating enable
 for_window [class="feh"] floating enable
-for_window [class="Lxappearance"] floating enable
 for_window [class="Pavucontrol"] floating enable
 
 # gaps
