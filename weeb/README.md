@@ -50,7 +50,7 @@ Wallpaper setter that is also an awesome image viewer
 
 [feh](https://github.com/derf/feh)
 
-No gaps No go.
+No gaps No go
 
 [i3-gaps](https://github.com/Airblader/i3)
 
