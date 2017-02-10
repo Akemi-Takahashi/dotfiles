@@ -53,3 +53,6 @@ Wallpaper setter that is also an awesome image viewer
 No gaps No go
 
 [i3-gaps](https://github.com/Airblader/i3)
+
+Font Awesome is a full suite of 675 pictographic icons for easy scalable vector graphics on websites, created and maintained by Dave Gandy. 
+[font-awesome](https://github.com/FortAwesome/Font-Awesome)
