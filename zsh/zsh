@@ -1,3 +1,6 @@
+# awesome-fontconfig
+POWERLEVEL9K_MODE='awesome-fontconfig'
+
 # zim source
 if [[ -s ${ZDOTDIR:-${HOME}}/.zim/init.zsh ]]; then
   source ${ZDOTDIR:-${HOME}}/.zim/init.zsh
@@ -15,7 +18,6 @@ POWERLEVEL9K_HIDE_BRANCH_ICON=true
 POWERLEVEL9K_HOME_ICON=""
 POWERLEVEL9K_FOLDER_ICON=""
 POWERLEVEL9K_HOME_SUB_ICON=""
-POWERLEVEL9K_MODE='awesome-fontconfig'
 POWERLEVEL9K_CUSTOM_NAME="echo AT"
 
 # set histfile
