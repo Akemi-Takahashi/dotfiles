@@ -24,7 +24,4 @@ POWERLEVEL9K_CUSTOM_NAME="echo AT"
 export HISTFILE=$HOME/.zsh_history
 export HISTSIZE=100000
 
-# editor for pacaur 
-export EDITOR=vim
-
 
